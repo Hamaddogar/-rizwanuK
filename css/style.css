@@ -1,0 +1,130 @@
+/* h1{
+ color: red;
+ font-size: x-large;
+ 
+
+}
+
+p{
+
+    color: brown;
+     font-size:30px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mypara1{
+color: yellow;
+ font-size: xx-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#mypara2{
+    color:  green;
+     font-size: xx-large;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+
+    .class1{
+        color: blue;
+    }
+    .class2{
+        color: yellow;
+    } */
+
+
+
+    #main{
+        display: inline-flex;
+        padding-left: 130px;
+    }
+
+    #box1{
+   width: 300px;
+   height: 300px;
+   background-color: red;
+   margin: 15px;
+   animation: linear 10s myrotate;
+    }
+    #box2{
+        width: 300px;
+        height: 300px;
+        background-color: yellow;
+   animation: linear 10s myrotate;
+
+   margin: 15px;
+
+         }  #box3{
+            width: 300px;
+            height: 300px;
+            background-color: green;
+   margin: 15px;
+   animation: linear 10s myrotate;
+
+          
+             }
+
+            @keyframes  myrotate{
+             from{
+                  transform: rotate(90deg);
+             }
+             to{
+                transform: rotate(360deg);
+
+             }
+              
+
+            }
+
+
+
+              #loading {
+
+                width: 130px;
+                 height: 10px;
+                 background-color: red;
+                 animation: linear 10s myloading;
+              }
+
+              @keyframes myloading{
+            0%{
+                width: 130px;
+                height: 2px;
+                background-color: red;
+            }
+            25%{
+                width: 300px;
+                height: 2px;
+                background-color: yellow;
+            }
+            50%{
+                width: 500px;
+                height: 2px;
+                background-color: green;
+            }
+            75%{
+                width: 700px;
+                height: 2px;
+                background-color: hotpink;
+            }
+           100%{
+            width: 1200px;
+            height: 2px;
+            background-color: red;
+           }
+
+
+
+
+              /* from{
+                width: 130px;
+                 height: 2px;
+                 background-color: red;}
+              to{
+                  
+                width: 1200px;
+                height: 2px;
+                background-color:  green;
+              } */
+
+              }
